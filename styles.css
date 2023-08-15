@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono&display=swap');
+:root{
+    --header-font: 'Inconsolata', monospace;
+    --main-font: 'Space Mono', monospace;
+
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 1440px;
+    height: 1080px;
+}
+
+#title{
+    font-family: var(--header-font);
+    width: 159px;
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 77px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -8%;
+    border: 1px solid red;
+    color: #333333;
+;
+}
+
+#img{
+    width: 539.22px;
+    height: 447.43px;
+    margin-top: 135px;
+    margin-left: 77px;
+}
+
+.main-section-container{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--main-font);
+}
+
+#right-side-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 118.78px;
+    margin-top: 135px;
+}
+
+#header{
+    width: 596px;
+    height: 190px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 94.78px;
+    letter-spacing: -3.5%;
+}
+
+#description{
+    width: 381px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+    margin-top: 28px;
+}
+
+#btn{
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    color: #fff;
+    margin-top: 53px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--main-font);
+}
